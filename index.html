@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>WDE MONITOR</title>
+    <link rel="stylesheet" href="css/style.css" media="all">
+   
+</head>
+
+<body>
+    <div class="content">
+        <div class="container">
+            <h1>WDE MONITOR</h1>
+            <p>This web application takes the agents employment number,runs it in the wde system and checks the currect activity for the agent.
+                 </p>from the app the agents gets to know whether there is a problem with the system and seak assistance on time.
+                
+            
+            <p>Fill the form below then submit to get the activity</p>
+            <form class="myform" onsubmit="return id Number()">
+                <label for="employment number">
+         employment number:
+            <input id="employment number-input" type="number" name="employment number" placeholder="employment number" value="" required>
+          </label>
+                <label for="month-of-birth">
+            >
+            <p>Select service needed: </p>
+
+            check my shift for the day
+            <input id="my shift" type="radio" name="my shift" value="my shift" required>
+            check wde activity
+            <input id="wde activity" type="radio" name="wde activity" value="wde activity" required>
+            
+
+          </label>
+                <br><br>
+                <input id="get the results here" type="submit" name="" value="get the results here">
+                <br><br>
+            </form>
+
+
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
