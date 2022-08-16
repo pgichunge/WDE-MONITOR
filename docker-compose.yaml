@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+  wde-monitor:
+    container_name: wde-monitor
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+    ports:
+      - 5000:5000
+    environment:
+      NODE_ENV: development
+      PORT: 5000
