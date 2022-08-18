@@ -9,3 +9,6 @@ Group members
 # About Project
 
 The aim of the project is to help reduce idle time, the agent can log off from the system incase of power outage and also confirm the shift  of the day remotely.
+
+# Link to Project
+Visit the <strong>project URL link</strong> [here](http://wde-monitor-test.herokuapp.com/)  
