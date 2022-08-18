@@ -12,3 +12,8 @@ The aim of the project is to help reduce idle time, the agent can log off from t
 
 # Link to Project
 Click [here](http://wde-monitor-test.herokuapp.com/)  
+
+# Technology used
+* HTML
+* CSS
+* JavaScript
