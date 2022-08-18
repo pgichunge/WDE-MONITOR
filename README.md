@@ -1,5 +1,6 @@
 # WDE-MONITOR
-Group members
+This is a simple web app that can be used to check activity for the day and log off the system remotely.
+## Group members
 * Pamela Gichunge-Dev & Product Owner
 * Peter Opiyo-Dev & Scrum Master
 * Richard-Developer
