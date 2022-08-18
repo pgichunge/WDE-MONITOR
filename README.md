@@ -1,7 +1,7 @@
 # WDE-MONITOR
 Group members
-* Pamela Gichunge
-* Peter Opiyo
-* Richard
-* Rebbecca
-* Timothy
+* Pamela Gichunge-Product Owner
+* Peter Opiyo-Scrum Master
+* Richard-Developer
+* Rebbecca-Developer
+* Timothy-Developer
