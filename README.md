@@ -29,4 +29,4 @@ To view the app, Click [here](http://wde-monitor-test.herokuapp.com/)
 * WDE-MONITOR V1.1
 # Support and contact details
 * poopiyo@safaricom.co.ke
-* pgachunge@safaricom.co.ke
+* pgichunge@safaricom.co.ke
