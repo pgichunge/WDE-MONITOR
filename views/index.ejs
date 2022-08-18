@@ -1,40 +1,61 @@
+
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>WDE MONITOR</title>
-  <link rel="stylesheet" href="css/style.css" media="all">
+    <meta charset="utf-8">
+    <title>WDE MONITOR</title>
+    <link rel="stylesheet" href="../css/style.css" media="all">
+   
 </head>
 
 <body>
-  <div class="content">
-    <div class="container">
-      <h1>WDE MONITOR</h1>
-      <p>Fill the form below then submit to get the activity.</p>
-      <form class="myform" onsubmit="return Activity()">
-        <label for="Employment number">
-          Employment number:
-          <input id="Employment number-input" type="number" name="employment number" placeholder="employment number"
-            value="" required>
-        </label>
-
-        <p>Select service needed: </p>
-
-        Check my shift for the day
-        <input id="my shift" type="radio" name="my shift" value="my shift" required>
-        check wde activity
-        <input id="wde activity" type="radio" name="wde activity" value="wde activity" required>
-        log off
-        <input id="wde activity" type="radio" name="wde activity" value="wde activity" required>
-
-        </label>
-        <br><br>
-        <input id="Result" type="submit" name="" value="get the results here">
-        <br><br>
-      </form>
+    
+ 
+<div class="container">
+    <div class="header">
+        <img src="../images/safaricom-logo.png" alt="safaricom-logo" width="200" height="fit">
+        <span class="brand-title">WDE-MONITOR</span>
+        <span class="flex-expand"></span>
+        <span class="brand-title">Welcome John Doe</span>
     </div>
-  </div>
+    <div class="main">
+        <div class="user-input">
+
+            <p>Fill the form below then submit to get the activity.</p>
+            <form class="myform" onsubmit="return Activity()">
+                <label for="Employment number">
+         Employment number:
+            <input id="Employment number-input" type="number" name="employment number" placeholder="EK Number" value="" required>
+          </label> 
+          <button type="submit">Go</button>
+         </form>
+        </div>
+        <div class="user-profile">
+            <div class="profile-name">Name: <span id="name"></span></div>
+            <div class="profile-ek">EK: <span id="ek"></span></div>
+            <div class="user-actions">
+                <form class="myform" onsubmit="return userAction()">
+                    <button type="submit">Shift</button>
+                    <button type="submit">WDE Activity</button>
+                    <button type="submit">Log Out</button>
+                </form>
+            </div>
+            <div class="user-results">
+                <div class="output-title">Agent Query Results</div>
+                <div class="shift-output"></div>
+                <div class="activity-output"></div>
+                <div class="logout-output"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span class="copyright">Copyright Safaricom PLC &copy;2022</span>
+    </div>
+    
+</div>
+    
 
 </body>
 
